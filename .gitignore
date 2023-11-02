@@ -1,0 +1,6 @@
+# Ignore .env file
+Meetup-Marketplace-Application/.env
+
+# Ignore node_modules directory
+Meet-Marketplace-Frontend/node_modules/
+Meetup-Marketplace-Application/node_modules/

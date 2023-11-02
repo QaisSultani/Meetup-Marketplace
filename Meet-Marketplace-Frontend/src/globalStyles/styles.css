@@ -1,0 +1,11 @@
+.w-95{
+  width: 95% !important;
+}
+
+.register-usertype-btn{
+  background-color: transparent;
+  color: rgb(88, 229, 237);
+  border: none;
+  text-align: right;
+  font-size: 14px;
+}

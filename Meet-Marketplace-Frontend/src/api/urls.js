@@ -1,0 +1,26 @@
+export const BASE_URL = "http://localhost:5000";
+export const REGISTERURL = "/api/user/signup";
+export const LOGINURL = "/api/user/login";
+export const OAUTH = "/api/user/oauth-login";
+export const LOGOUTURL = "/api/user/logout";
+export const AUTHORIZEUSER = "/api/user/current-user";
+export const FETCHBOOKINGS = "/api/bookings";
+export const FETCHALLBOOKINGS = "/api/bookings/all";
+export const APPROVEBOOKING = "/api/bookings/approve";
+export const REJECTBOOKING = "/api/bookings/reject";
+export const CURRENTUSER = "/api/user/";
+export const CHANGEPASSWORD = "/api/user/change-password";
+export const UPDATEPROFILE = "/api/user/update";
+export const ALLUSERS = "/api/user/users";
+export const WEEKLYAVAILABILITY = "/api/user/weeklyavailability/mentor";
+export const NEWBOOKING = "/api/bookings/new-booking";
+export const UPDATE_AVAILABILITY_SLOTS = "/api/user/availability";
+export const CHANGEUSERTTYPE = (id) => `/api/user/users/${id}/change-status`;
+export const FORGOTPASSWORD = (email) => `/api/user/forgot-password/${email}`;
+export const RESETPASSWORD = (email) => `/api/user/reset-password/${email}`;
+export const FETCHAVAILABILITY = (mentorEmail) =>
+  `/api/user/getavailability/${mentorEmail}`;
+export const GET_REVIEWS = (mentorEmail) => `/api/user/review/${mentorEmail}`;
+export const CREATE_REVIEW = "/api/user/review";
+export const CHECKSLUG = "/api/user/slug";
+export const GETMENTORBYSLUG = (slug) => `/api/user/mentor/${slug}`;
